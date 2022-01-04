@@ -1,0 +1,17 @@
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+h1 {
+  font-size: 50px;
+}
+.orange-color {
+  color: #f6bc5e;
+}
+section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+}
