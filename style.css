@@ -24,7 +24,7 @@ p {
 .orange-color {
   color: #f6bc5e;
 }
-section {
+.flx-container {
   display: flex;
   height: 100vh;
 }
@@ -39,7 +39,7 @@ section {
 .link-btn {
   text-decoration: none;
   padding: 10px 40px;
-  background-image: linear-gradient(orange, tomato);
+  background-image: linear-gradient(to right, orange, tomato);
   font-weight: 700;
   color: #fff;
   border-radius: 10px;
@@ -53,4 +53,35 @@ section {
   background-image: url(./images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.exp-area {
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
+}
+.exp-item {
+  width: 40%;
+  height: 500px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 30px;
+  padding-top: 30px;
+  box-shadow: 10px 10px 40px #ccc;
+  border-radius: 20px;
+}
+h2 {
+  font-size: 40px;
+}
+#web-exp-item {
+  border-left: 10px solid;
+  border-image: linear-gradient(#2525f0, #61d9fd);
+  border-image-slice: 1;
+}
+#web-exp-item-1st {
+  border-left: 10px solid;
+  border-image: linear-gradient(#0dd693, #ebff32);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
