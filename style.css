@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Poppins", sans-serif;
   /* font-family: 'Roboto', sans-serif; */
@@ -14,4 +19,20 @@ section {
 }
 .half-width {
   width: 50%;
+  padding-left: 3%;
+}
+.half-width img {
+  width: 100%;
+}
+.link-btn {
+  text-decoration: none;
+  padding: 10px 40px;
+  background-image: linear-gradient(orange, tomato);
+  font-weight: 700;
+  color: #fff;
+  border-radius: 10px;
+}
+.top-banner {
+  background-image: url(./images/top-banner.png);
+  background-repeat: no-repeat;
 }
